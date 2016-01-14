@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.startButton = new System.Windows.Forms.Button();
-            this.closeButton = new System.Windows.Forms.Button();
             this.imageList = new System.Windows.Forms.ListBox();
             this.addImageButton = new System.Windows.Forms.Button();
             this.removeImageButton = new System.Windows.Forms.Button();
@@ -44,23 +43,13 @@
             // startButton
             // 
             this.startButton.Enabled = false;
-            this.startButton.Location = new System.Drawing.Point(417, 298);
+            this.startButton.Location = new System.Drawing.Point(421, 297);
             this.startButton.Name = "startButton";
             this.startButton.Size = new System.Drawing.Size(75, 23);
             this.startButton.TabIndex = 0;
             this.startButton.Text = "&Start";
             this.startButton.UseVisualStyleBackColor = true;
             this.startButton.Click += new System.EventHandler(this.startButton_Click);
-            // 
-            // closeButton
-            // 
-            this.closeButton.Location = new System.Drawing.Point(498, 298);
-            this.closeButton.Name = "closeButton";
-            this.closeButton.Size = new System.Drawing.Size(75, 23);
-            this.closeButton.TabIndex = 1;
-            this.closeButton.Text = "&Close";
-            this.closeButton.UseVisualStyleBackColor = true;
-            this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
             // 
             // imageList
             // 
@@ -154,7 +143,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(585, 332);
+            this.ClientSize = new System.Drawing.Size(508, 332);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.frameRate);
             this.Controls.Add(this.label2);
@@ -164,7 +153,6 @@
             this.Controls.Add(this.removeImageButton);
             this.Controls.Add(this.addImageButton);
             this.Controls.Add(this.imageList);
-            this.Controls.Add(this.closeButton);
             this.Controls.Add(this.startButton);
             this.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
@@ -183,7 +171,6 @@
         #endregion
 
         private System.Windows.Forms.Button startButton;
-        private System.Windows.Forms.Button closeButton;
         private System.Windows.Forms.ListBox imageList;
         private System.Windows.Forms.Button addImageButton;
         private System.Windows.Forms.Button removeImageButton;
