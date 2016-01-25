@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using SpryCoder.TimeLapseTool.Helpers;
+using ArmchairCoder.TimeLapseTool.Helpers;
 
-namespace SpryCoder.TimeLapseTool
+namespace ArmchairCoder.TimeLapseTool
 {
     public partial class TimelapseForm : Form
     {

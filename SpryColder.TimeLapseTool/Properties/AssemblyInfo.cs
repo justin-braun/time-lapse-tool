@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Time Lapse Tool")]
 [assembly: AssemblyDescription("A tool for genereating time lapse images from JPG images.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Spry Coder Software")]
-[assembly: AssemblyProduct("TimeLapseTool")]
-[assembly: AssemblyCopyright("Copyright © 2016 Spry Coder Software. All rights reserved.")]
+[assembly: AssemblyCompany("Armchair Coder Software")]
+[assembly: AssemblyProduct("Time Lapse Tool")]
+[assembly: AssemblyCopyright("Copyright © 2016 Armchair Coder Software. All rights reserved.")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.16014.0524")]
-[assembly: AssemblyFileVersion("1.16014.0524")]
+[assembly: AssemblyVersion("1.16025.0527")]
+[assembly: AssemblyFileVersion("1.16025.0527")]

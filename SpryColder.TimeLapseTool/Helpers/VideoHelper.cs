@@ -1,14 +1,10 @@
-﻿using AForge.Video.FFMPEG;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Drawing.Imaging;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using AForge.Video.FFMPEG;
 
-namespace SpryCoder.TimeLapseTool.Helpers
+namespace ArmchairCoder.TimeLapseTool.Helpers
 {
     public static class VideoHelper
     {

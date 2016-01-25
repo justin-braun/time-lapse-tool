@@ -1,4 +1,4 @@
-﻿namespace SpryCoder.TimeLapseTool
+﻿namespace ArmchairCoder.TimeLapseTool
 {
     partial class TimelapseForm
     {
@@ -162,7 +162,7 @@
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Time Lapse";
+            this.Text = "Time Lapse Tool";
             this.ResumeLayout(false);
             this.PerformLayout();
 

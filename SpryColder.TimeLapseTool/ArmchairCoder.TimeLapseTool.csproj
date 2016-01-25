@@ -7,7 +7,7 @@
     <ProjectGuid>{6F6F07E5-0E8C-4B01-AE93-1F7C2A7EC1E1}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SpryCoder.TimeLapseTool</RootNamespace>
+    <RootNamespace>ArmchairCoder.TimeLapseTool</RootNamespace>
     <AssemblyName>TimeLapseTool</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>SpryCoder.TimeLapseTool.Program</StartupObject>
+    <StartupObject>ArmchairCoder.TimeLapseTool.Program</StartupObject>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <DebugSymbols>true</DebugSymbols>
