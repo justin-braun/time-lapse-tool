@@ -1,4 +1,7 @@
-﻿using System;
+﻿// Copyright © 2015-2016 Armchair Coder Software.
+// This program is distributed under the terms of the GNU General Public License.
+
+using System;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using ArmchairCoder.TimeLapseTool.Helpers;
