@@ -1,4 +1,4 @@
-﻿// Copyright © 2015-2016 Armchair Coder Software.
+﻿// Copyright © 2015-2016 Armchair Coder Software (http://armchaircoder.com).
 // This program is distributed under the terms of the GNU General Public License.
 
 using System;
