@@ -1,4 +1,4 @@
-﻿namespace ArmchairCoder.TimeLapseTool
+﻿namespace TimeLapseTool
 {
     partial class TimelapseForm
     {

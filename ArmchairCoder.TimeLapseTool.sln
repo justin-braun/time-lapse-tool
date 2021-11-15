@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArmchairCoder.TimeLapseTool", "ArmchairCoder.TimeLapseTool\ArmchairCoder.TimeLapseTool.csproj", "{6F6F07E5-0E8C-4B01-AE93-1F7C2A7EC1E1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeLapseTool", "ArmchairCoder.TimeLapseTool\TimeLapseTool.csproj", "{6F6F07E5-0E8C-4B01-AE93-1F7C2A7EC1E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +24,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B0F834C-46E2-4D32-B156-63485E2AD0D4}
 	EndGlobalSection
 EndGlobal

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace ArmchairCoder.TimeLapseTool
+namespace TimeLapseTool
 {
     static class Program
     {

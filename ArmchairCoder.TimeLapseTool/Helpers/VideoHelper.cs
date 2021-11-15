@@ -1,13 +1,10 @@
-﻿// Copyright © 2015-2016 Armchair Coder Software.
-// This program is distributed under the terms of the GNU General Public License.
-
-using System;
+﻿using System;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Drawing.Imaging;
 using AForge.Video.FFMPEG;
 
-namespace ArmchairCoder.TimeLapseTool.Helpers
+namespace TimeLapseTool.Helpers
 {
     public static class VideoHelper
     {
@@ -18,13 +15,6 @@ namespace ArmchairCoder.TimeLapseTool.Helpers
                 using (var videoWriter = new VideoFileWriter())
                 {
                     videoWriter.Open(outputFilePath, width, height, frameRate, VideoCodec.MPEG4, 1000000);
-
-                    // use for ordering by file date
-                    //System.IO.DirectoryInfo di = new System.IO.DirectoryInfo(basePath);
-                    //System.IO.FileSystemInfo[] images = di.GetFileSystemInfos();
-                    //var orderedImages = images.OrderBy(f => f.CreationTime);
-
-                    //foreach (FileSystemInfo imageFile in images)
 
                     foreach (string file in fileList)
                     {
